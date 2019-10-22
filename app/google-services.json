@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "165787881213",
+    "firebase_url": "https://myedailydiary-86369.firebaseio.com",
+    "project_id": "myedailydiary-86369",
+    "storage_bucket": "myedailydiary-86369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165787881213:android:b74ee9e1c84b252c3cb894",
+        "android_client_info": {
+          "package_name": "com.example.todoappwithfirease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165787881213-64vglvv35hijadlbf5v7c025er7k1e95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIRiZb0hoRV7YeFunNlZWZZaS1pW-nS7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165787881213-64vglvv35hijadlbf5v7c025er7k1e95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165787881213:android:8523678012a4b8e13cb894",
+        "android_client_info": {
+          "package_name": "edu.ktu.myedailydiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165787881213-cme1mcgfqi9vekjp0o3jlvfml5m2iai9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ktu.myedailydiary",
+            "certificate_hash": "77194bfc9398acc876dd80044874d3c864e52377"
+          }
+        },
+        {
+          "client_id": "165787881213-64vglvv35hijadlbf5v7c025er7k1e95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIRiZb0hoRV7YeFunNlZWZZaS1pW-nS7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165787881213-64vglvv35hijadlbf5v7c025er7k1e95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

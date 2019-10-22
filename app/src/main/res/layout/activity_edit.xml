@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    tools:context=".EditActivity">
+
+    <androidx.cardview.widget.CardView
+
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_margin="15dp"
+                android:src="@drawable/diary"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Date"
+                android:inputType="date"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <EditText
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:hint="Title"
+                android:layout_margin="5dp"
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:gravity="top"
+                android:hint="Description"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+            <Button
+                android:background="@color/colorPrimary"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/updatesbutton"
+                android:text="Update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="@color/colorPrimary"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/deletedbutton"
+                android:text="Delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

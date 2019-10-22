@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        android:title="Logout">
+    </item>
+
+    <item
+        android:id="@+id/profileMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Profile">
+    </item>
+
+    <item
+        android:id="@+id/sortMenu"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Sort by date">
+    </item>
+
+
+    <item
+        android:id="@+id/searchMenu"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"
+        android:title="Search"
+        android:icon="@drawable/ic_search_white_24dp">
+
+    </item>
+
+</menu>
